@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhoneBook</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <h2>Phonebook</h2>
+    <input type="number" id="phoneNumber" placeholder="Enter your number">
+    <input type="text" id="contactName" placeholder="Enter your name">
+    <button onclick="phonebookAdd()">Add Entry</button>
+    <button onclick="phonebookSearch()">Search Entry</button>
+    <button onclick="phonebookDelete()">Delete Entry</button>
+    <button onclick="phonebookList()">List Entries</button>
+    <button onclick="clearDisplay()">Clear Display</button>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <h6 style="text-align: center;">© Mork</h6>
+</body>
+</html>
